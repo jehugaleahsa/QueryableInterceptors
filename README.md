@@ -32,7 +32,7 @@ There are various overloads of the `With` method to allow more control over how 
 ## QueryableInterceptors Overview
 It is really, really hard to work with `IQueryable`s without impacting the final output. This project is an attempt to provide a base class that will allow you to safely interact and extract information from the `IQueryable` throughout its lifetime. All wrappers will inherit from the `InterceptingQueryProvider` class. The best way to learn how to use the class is to look at the `WrappedQueryProvider` class in the *ExceptionWrapping* library. 
 
-## Licence
-If you are looking for a licence, you won't find one. The software in this project is free, as in "free as air". Feel free to use my software anyway you like. Use it to build up your evil war machine, swindle old people out of their social security or crush the souls of the innocent.
+## License
+If you are looking for a license, you won't find one. The software in this project is free, as in "free as air". Feel free to use my software anyway you like. Use it to build up your evil war machine, swindle old people out of their social security or crush the souls of the innocent.
 
 I love to hear how people are using my code, so drop me a line. Feel free to contribute any enhancements or documentation you may come up with, but don't feel obligated. I just hope this code makes someone's life just a little bit easier.
