@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryableInterceptors", "QueryableInterceptors\QueryableInterceptors.csproj", "{8B04B578-3968-48E8-8BA9-097666169C35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C616E676-14A5-4B21-8E9F-A7FA9E0D3714}"
@@ -11,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C616E6
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryableInterceptors.ExceptionWrapping", "QueryableInterceptors.ExceptionWrapping\QueryableInterceptors.ExceptionWrapping.csproj", "{17C9A3BB-8896-4853-8EA2-4EE2F1E0F5C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryableInterceptors.ExceptionWrapping.Test", "QueryableInterceptors.ExceptionWrapping.Test\QueryableInterceptors.ExceptionWrapping.Test.csproj", "{359ACBCE-E590-4574-B872-19E90D26FDE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +30,10 @@ Global
 		{17C9A3BB-8896-4853-8EA2-4EE2F1E0F5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17C9A3BB-8896-4853-8EA2-4EE2F1E0F5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17C9A3BB-8896-4853-8EA2-4EE2F1E0F5C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359ACBCE-E590-4574-B872-19E90D26FDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359ACBCE-E590-4574-B872-19E90D26FDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359ACBCE-E590-4574-B872-19E90D26FDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359ACBCE-E590-4574-B872-19E90D26FDE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
